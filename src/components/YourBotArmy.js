@@ -13,7 +13,7 @@ function YourBotArmy({army,setArmy}) {
           
           Your Bot Army
 
-          {army.map((bot => <BotCard key={bot.id} setArmy={setArmy} army={army}/>
+          {army.map((bot => <BotCard key={bot.id} bot={bot} setArmy={setArmy} army={army}/>
 
           ))}
         </div>
